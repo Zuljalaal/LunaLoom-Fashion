@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luna Loom Fashion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal CSS for Custom Styling -->
+    <style>
+        body {
+            background-color: #FAEBD7; /* Antique White */
+            color: #6F4E37; /* Default text color */
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            background-color: #FAEBD7; /* Misty Rose */
+        }
+
+        .navbar-brand {
+            color: #6F4E37; /* Darker Text for Visibility */
+        }
+
+        .nav-link {
+            color: #6F4E37; /* Darker Text for Visibility */
+        }
+
+        .nav-link:hover {
+            color: #C19A6B; /* Camel Color for Hover Effect */
+        }
+
+        /* Hero Section Styling */
+        .hero {
+            position: relative;
+            padding: 0;
+            margin: 0;
+        }
+
+        .hero img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .hero h1 {
+            color: #6F4E37; /* Darker Text for Hero Section */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3rem;
+            z-index: 2; /* Ensure text is above the image */
+        }
+
+        .hero .btn {
+            background-color: #6F4E37; /* Coffee */
+            color: white;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 10px 20px;
+            z-index: 2; /* Ensure button is above the image */
+        }
+
+        .hero .btn:hover {
+            background-color: #C19A6B; /* Camel Hover Effect */
+        }
+
+        /* Card Section */
+        .card {
+            border: 1px solid #FFE4E1; /* Misty Rose for Card Borders */
+        }
+
+        .card-title {
+            color: #6F4E37; /* Darker Text for Card Titles */
+        }
+
+        .card-text {
+            color: #6F4E37; /* Darker Text for Card Text */
+        }
+
+        .btn.custom-btn {
+            background-color: #6F4E37; /* Coffee */
+            color: white;
+        }
+
+        .btn.custom-btn:hover {
+            background-color: #C19A6B; /* Camel Hover Effect */
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <!-- Header with Navigation Bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand ps-3" href="index.html">Luna Loom Fashion</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Collections
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="womens-collection.html">Women's Fashion</a></li>
+                            <li><a class="dropdown-item" href="mens-collection.html">Men's Fashion</a></li>
+                            <li><a class="dropdown-item" href="accessories.html">Accessories</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About US.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn custom-btn text-white px-3 py-1 me-3" href="signup.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn custom-btn text-white px-3 py-1 me-3" href="login.html">Signup</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <!-- Hero content -->
+            <div>
+                <img src="/images/main.jpg" alt="Main Image">
+                <h1>Elevate Your Style</h1>
+                <a href="collection.html" class="btn custom-btn">Shop Now</a>
+            </div>
+        </section>
+
+        <!-- Cards -->
+        <div class="container mt-5 card-container">
+            <h2>Our Collections</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow h-100">
+                        <img src="/images/women.jpg" class="card-img-top" alt="Women's Fashion">
+                        <div class="card-body">
+                            <h5 class="card-title">Women’s Fashion</h5>
+                            <p class="card-text">Explore our latest styles for women.</p>
+                            <a href="womens-collection.html" class="btn custom-btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow h-100">
+                        <img src="/images/men.jpg" class="card-img-top" alt="Men's Fashion">
+                        <div class="card-body">
+                            <h5 class="card-title">Men’s Fashion</h5>
+                            <p class="card-text">Discover the latest trends in men's clothing.</p>
+                            <a href="mens-collection.html" class="btn custom-btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow h-100">
+                        <img src="/images/accessories.jpg" class="card-img-top" alt="Accessories">
+                        <div class="card-body">
+                            <h5 class="card-title">Accessories</h5>
+                            <p class="card-text">Complete your look with our stylish accessories.</p>
+                            <a href="accessories.html" class="btn custom-btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <div class="social-links">
+                <p>Follow us on 
+                    <a href="#">Facebook</a> | 
+                    <a href="#">Instagram</a> | 
+                    <a href="#">Pinterest</a>
+                </p>
+            </div>
+            <p>&copy; 2024 Luna Loom Fashion</p>
+        </div>
+    </footer>
+
+    <!-- Required Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

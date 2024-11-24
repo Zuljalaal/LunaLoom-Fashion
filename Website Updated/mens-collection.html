@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Collection - Luna Loom Fashion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Body Background */
+        body {
+            background-color: #FAEBD7; /* Antique White */
+            color: #6B4F31; /* Dark brown text for good contrast */
+        }
+
+        /* Navbar Background */
+        .navbar {
+            background-color: 6B4F31; /* Antique White */
+        }
+
+        .navbar-brand {
+            color: #6B4F31; /* Dark brown text for brand */
+        }
+
+        .nav-link {
+            color: #6B4F31; /* Dark brown text for links */
+        }
+
+        .nav-link:hover {
+            color: #FAEBD7; /* Misty Rose on hover */
+        }
+
+        /* Button Styling */
+        .custom-btn {
+            background-color: #6B4F31; /* Misty Rose button color */
+            color: white; /* Text color */
+            border: none;
+            border-radius: 5px; /* Rounded corners */
+            padding: 8px 20px; /* Button padding */
+            font-size: 14px; /* Text size */
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .custom-btn:hover {
+            background-color: #FAEBD7; /* Lighter Misty Rose on hover */
+            color: white;
+        }
+
+        footer {
+            background-color: #6B4F31; /* Dark brown footer */
+            color: white;
+            padding: 30px 0;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #FAEBD7; /* Misty Rose footer links */
+        }
+
+        /* Card Image Styling */
+        .card-img-top {
+            height: 350px; /* Set a fixed height for all images */
+            object-fit: cover; /* Ensures the image covers the area without distortion */
+            width: 100%; /* Ensure images span the width of the card */
+        }
+
+        /* Card Styling */
+        .card-body {
+            background-color: white; /* Light rose background for the cards */
+        }
+
+        .card-title {
+            color: #6B4F31; /* Dark brown text for card titles */
+        }
+
+        .card-text {
+            color: #6B4F31; /* Dark brown text for card descriptions */
+        }
+
+        /* Container Styling */
+        .container {
+            padding-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header with Navigation Bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand ps-3" href="index.html">Luna Loom Fashion</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Collections
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="womens-collection.html">Women's Fashion</a></li>
+                            <li><a class="dropdown-item" href="mens-collection.html">Men's Fashion</a></li>
+                            <li><a class="dropdown-item" href="accessories.html">Accessories</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About US.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn custom-btn text-white px-3 py-1 me-3" href="signup.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn custom-btn text-white px-3 py-1 me-3" href="login.html">Signup</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <h1 class="mb-4">Men's Collection</h1>
+        <div class="row">
+            <!-- Item 1 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="/images/3 Piece Tweed Suit.jpeg.jpg" class="card-img-top" alt="3 Piece Tweed Suit">
+                    <div class="card-body">
+                        <h5 class="card-title">3 Piece Tweed Suit</h5>
+                        <p class="card-text">Rs. 2,000</p>
+                        <p class="card-text text-muted">3.5k sold</p>
+                        <a href="checkout.html" class="btn custom-btn">Proceed to Checkout</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="/images/Foan suit with brown waistcoat.jpeg.jpg" class="card-img-top" alt="Foan Suit with Brown WaistCoat">
+                    <div class="card-body">
+                        <h5 class="card-title">Foan Suit with Brown WaistCoat</h5>
+                        <p class="card-text">Rs. 1,200</p>
+                        <p class="card-text text-muted">2.9k sold</p>
+                        <a href="checkout.html" class="btn custom-btn">Proceed to Checkout</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="/images/Brown suit.jpeg.jpg" class="card-img-top" alt="Brown Suit">
+                    <div class="card-body">
+                        <h5 class="card-title">Brown Suit</h5>
+                        <p class="card-text">Rs. 1,500</p>
+                        <p class="card-text text-muted">4.1k sold</p>
+                        <a href="checkout.html" class="btn custom-btn">Proceed to Checkout</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="/images/Suit with waistcoat.jpeg.jpg" class="card-img-top" alt="Suit with Waist Coat">
+                    <div class="card-body">
+                        <h5 class="card-title">Suit with Waist Coat</h5>
+                        <p class="card-text">Rs. 3,200</p>
+                        <p class="card-text text-muted">2.3k sold</p>
+                        <a href="checkout.html" class="btn custom-btn">Proceed to Checkout</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="/images/Shalwar kameez with shawl.jpeg.jpg" class="card-img-top" alt="Shalwar Kameez with Shawl">
+                    <div class="card-body">
+                        <h5 class="card-title">Shalwar Kameez with Shawl</h5>
+                        <p class="card-text">Rs. 1,700</p>
+                        <p class="card-text text-muted">1.9k sold</p>
+                        <a href="checkout.html" class="btn custom-btn">Proceed to Checkout</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="/images/Shalwar kameez with coat.jpeg.jpg" class="card-img-top" alt="Shalwar Kameez with Coat">
+                    <div class="card-body">
+                        <h5 class="card-title">Shalwar Kameez with Coat</h5>
+                        <p class="card-text">Rs. 1,400</p>
+                        <p class="card-text text-muted">4.6k sold</p>
+                        <a href="checkout.html" class="btn custom-btn">Proceed to Checkout</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 7 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="/images/Tweed Long Overcoat.jpeg.jpg" class="card-img-top" alt="Tweed Long Overcoat">
+                    <div class="card-body">
+                        <h5 class="card-title">Tweed Long Overcoat</h5>
+                        <p class="card-text">Rs. 900</p>
+                        <p class="card-text text-muted">3.0k sold</p>
+                        <a href="checkout.html" class="btn custom-btn">Proceed to Checkout</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 8 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="/images/Foan shirt with jeans.jpeg.jpg" class="card-img-top" alt="Foan Shirt with Jeans">
+                    <div class="card-body">
+                        <h5 class="card-title">Foan Shirt with Jeans</h5>
+                        <p class="card-text">Rs. 5,000</p>
+                        <p class="card-text text-muted">1.5k sold</p>
+                        <a href="checkout.html" class="btn custom-btn">Proceed to Checkout</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 9 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="/images/Minimalist suit.jpeg.jpg" class="card-img-top" alt="Minimalist Suit">
+                    <div class="card-body">
+                        <h5 class="card-title">Minimalist Suit</h5>
+                        <p class="card-text">Rs. 800</p>
+                        <p class="card-text text-muted">3.8k sold</p>
+                        <a href="checkout.html" class="btn custom-btn">Proceed to Checkout</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 10 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="/images/white shirt with dress pant.jpeg.jpg" class="card-img-top" alt="White shirt and Pants">
+                    <div class="card-body">
+                        <h5 class="card-title">White shirt and Pants</h5>
+                        <p class="card-text">Rs. 3,500</p>
+                        <p class="card-text text-muted">2.6k sold</p>
+                        <a href="checkout.html" class="btn custom-btn">Proceed to Checkout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <div class="social-links">
+                <p>Follow us on 
+                    <a href="#">Facebook</a> | 
+                    <a href="#">Instagram</a> | 
+                    <a href="#">Pinterest</a>
+                </p>
+            </div>
+            <p>&copy; 2024 Luna Loom Fashion</p>
+        </div>
+    </footer>
+
+    <!-- Required Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Luna Loom Fashion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Raleway', sans-serif;
+            background-color: #FAEBD7; /* Antique White */
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            background-color: #FAEBD7;
+        }
+
+        .navbar-brand {
+            color: #6B4F31;
+        }
+
+        .nav-link {
+            color: #6B4F31;
+        }
+
+        .nav-link:hover {
+            color: #FAEBD7;
+        }
+
+        /* Button Styling */
+        .custom-btn {
+            background-color: #6B4F31;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 20px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .custom-btn:hover {
+            background-color: #FAEBD7;
+            color: white;
+        }
+
+        /* Hero Section Styling */
+        .hero-section {
+            background-image: url("https://png.pngtree.com/background/20230513/original/pngtree-dress-shop-offering-in-a-red-and-orange-color-fashion-showroom-picture-image_2507152.jpg");
+            background-size: cover;
+            background-position: center;
+            padding: 190px 0;
+            color: white;
+            text-align: center;
+            border-bottom: 5px solid #6B4F31;
+        }
+
+        .hero-section h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        /* Mission and Vision Styling */
+        .mission-vision {
+            text-align: center;
+            margin: 80px 0;
+            padding: 40px 0;
+            background: #FAEBD7;
+            border-radius: 10px;
+        }
+
+        .mission-vision h3 {
+            font-weight: 600;
+            margin-bottom: 30px;
+            font-size: 2rem;
+        }
+
+        .mission-vision p {
+            font-size: 1.3rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* About Us Section Styling */
+        .about-us {
+            padding: 80px 0;
+        }
+
+        .about-us h2 {
+            font-size: 3rem;
+            font-weight: 600;
+            color: #6B4F31;
+            margin-bottom: 30px;
+        }
+
+        .about-us p {
+            font-size: 1.3rem;
+            color: #3b3b3b;
+            margin-bottom: 50px;
+            line-height: 1.7;
+        }
+
+        /* Team Member Card Styling */
+        .team-member {
+            text-align: center;
+            margin-bottom: 50px;
+            padding: 20px;
+            transition: transform 0.3s ease;
+            border: 1px solid #FAEBD7;
+            border-radius: 10px;
+        }
+
+        .team-member:hover {
+            transform: scale(1.05);
+        }
+
+        .team-member img {
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 4px solid #6B4F31;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .team-member h4 {
+            margin-top: 20px;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .team-member p {
+            font-size: 1.2rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #6B4F31;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #FAEBD7;
+        }
+
+        /* Container Styling */
+        .container {
+            padding-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand ps-3" href="index.html">Luna Loom Fashion</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            Collections
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="womens-collection.html">Women's Fashion</a></li>
+                            <li><a class="dropdown-item" href="mens-collection.html">Men's Fashion</a></li>
+                            <li><a class="dropdown-item" href="accessories.html">Accessories</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About US.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn custom-btn text-white px-3 py-1 me-3" href="signup.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn custom-btn text-white px-3 py-1 me-3" href="login.html">Signin</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <h1>About Luna Loom Fashion</h1>
+        <p>Timeless, Handcrafted Fashion from Artisans Around the World</p>
+    </section>
+
+    <!-- About Us Section -->
+    <main>
+        <section class="about-us">
+            <div class="container text-center">
+                <h2>About Us</h2>
+                <p>At Luna Loom Fashion, we believe in the beauty of timeless, handcrafted fashion. Our team is dedicated to offering you unique, bespoke fashion pieces that empower artisans and celebrate craftsmanship.</p>
+
+                <!-- Mission and Vision -->
+                <div class="mission-vision">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Our Mission</h3>
+                            <p>To connect artisans from around the world with consumers who value handmade, high-quality fashion. We aim to support sustainable practices and promote ethical craftsmanship while delivering unique pieces for every occasion.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Our Vision</h3>
+                            <p>To become a leading platform for artisans to showcase their work globally, creating an inclusive fashion ecosystem that values culture, craftsmanship, and sustainability. We envision a world where fashion is both beautiful and conscious.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Meet Our Team -->
+                <h3>Meet Our Team</h3>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="team-member">
+                            <img src="/images/dua.png" alt="Dua Khurram">
+                            <h4>Dua Khurram</h4>
+                            <p>Founder & CEO – Leading the vision and strategy behind Luna Loom Fashion.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="team-member">
+                            <img src="/images/laiba.png" alt="Umme-Laiba">
+                            <h4>Umme-Laiba</h4>
+                            <p>Creative Director – Bringing our collections to life with beautiful designs.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="team-member">
+                            <img src="/images/marsha.png" alt="Marsha Siddiqui">
+                            <h4>Marsha Siddiqui</h4>
+                            <p>Product Manager – Ensuring we offer the best fashion trends and quality.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="team-member">
+                            <img src="/images/zuljalal.png" alt="Syed Zuljalal Ali">
+                            <h4>Syed Zuljalal Ali</h4>
+                            <p>Web Developer – Creating and maintaining the online platform for a smooth shopping experience.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="team-member">
+                            <img src="/images/haris.png" alt="Muhammad Haris">
+                            <h4>Muhammad Haris</h4>
+                            <p>Marketing Manager – Leading our marketing efforts to ensure Luna Loom reaches the right audience.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="team-member">
+                            <img src="/images/Rija.jpg" alt="Rija Salman">
+                            <h4>Rija Salman</h4>
+                            <p>Social Media Manager – Managing our online presence and connecting with our audience on social platforms.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="index.html" class="btn custom-btn mt-4">Back to Home</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <div class="social-links">
+                <p>Follow us on 
+                    <a href="#">Facebook</a> | 
+                    <a href="#">Instagram</a> | 
+                    <a href="#">Pinterest</a>
+                </p>
+            </div>
+            <p>© 2024 Luna Loom Fashion</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
